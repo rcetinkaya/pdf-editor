@@ -6,9 +6,9 @@
     "target": "es2022",
     "allowJs": true,
     "resolveJsonModule": true,
-    "moduleDetection": "bundler",
+    "moduleDetection": "force",
     "isolatedModules": true,
-   /*  "verbatimModuleSyntax": true, */
+    /* "verbatimModuleSyntax": true, */
 
     /* Strictness */
     "strict": true,
@@ -19,7 +19,7 @@
     "lib": ["dom", "dom.iterable", "ES2022"],
     "noEmit": true,
     "module": "ESNext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "jsx": "preserve",
     "plugins": [{ "name": "next" }],
     "incremental": true,
